@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Qianyi Liu</title>
+  <meta name="description" content="Academic homepage of Qianyi Liu." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <img src="assets/avatar.jpg" alt="Portrait of Qianyi Liu" class="avatar" onerror="this.style.display='none'" />
+      <div>
+        <h1>Qianyi Liu</h1>
+        <p class="affiliation">Position &middot; Department &middot; Institution</p>
+        <p class="contact">
+          <a href="mailto:qianyijliu@gmail.com">qianyijliu@gmail.com</a> &middot;
+          <a href="https://scholar.google.com/">Scholar</a> &middot;
+          <a href="https://github.com/">GitHub</a> &middot;
+          <a href="cv.pdf">CV</a>
+        </p>
+      </div>
+    </header>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Short bio. Describe research interests, current focus, and prior background in
+        two or three sentences. Link to <a href="#publications">publications</a> below.
+      </p>
+    </section>
+
+    <section id="news">
+      <h2>News</h2>
+      <ul class="news">
+        <li><span class="date">2026-04</span> Launched new academic page.</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <ol class="pubs">
+        <li>
+          <span class="title">Paper title goes here.</span>
+          <span class="authors">Author A, <strong>Qianyi Liu</strong>, Author C.</span>
+          <span class="venue">Venue, Year.</span>
+          <span class="links">
+            <a href="#">pdf</a> &middot; <a href="#">code</a> &middot; <a href="#">bibtex</a>
+          </span>
+        </li>
+      </ol>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <ul>
+        <li>Course number &mdash; Title (Term Year)</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Qianyi Liu</p>
+    </footer>
+  </main>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
